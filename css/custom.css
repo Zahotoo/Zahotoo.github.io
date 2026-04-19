@@ -1,0 +1,6 @@
+/* Fix inline code in light mode — override the hardcoded dark background */
+  [data-theme="light"] :not(pre) > code {
+    background: rgba(175, 184, 193, 0.2) !important;
+    color: #0550ae !important;
+    border: 1px solid rgba(0, 80, 180, 0.15);
+  }
